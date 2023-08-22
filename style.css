@@ -2,7 +2,25 @@ body {background: #ffcbcb;}
 
 h1 {
     text-align: center;
+    color: rgb(40, 62, 92);;
 }
+select { text-align: center;}
 footer {
     text-align: center;
+}
+.selectOptions {display: block;
+margin: 0 auto;
+text-align: center;}
+
+.container { 
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto ;
+    background:  #ffb5b5;
+max-width: 600px;
+
+text-align: center;}
+
+.cities { 
+    color: #407088;;
 }
