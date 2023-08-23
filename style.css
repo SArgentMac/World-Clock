@@ -1,16 +1,32 @@
-body {background: #ffcbcb;}
+body {background: #ffcbcb;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 
 h1 {
     text-align: center;
-    color: rgb(40, 62, 92);;
+    color: rgb(40, 62, 92);
+    font-size: 38px;
+    margin-top: 5px;
 }
-select { text-align: center;}
+h2 {margin: 0 0 5px;
+    font-size: 28px;}
+
 footer {
     text-align: center;
 }
-.selectOptions {display: block;
+
+select {display: block;
 margin: 0 auto;
-text-align: center;}
+text-align: center;
+width: 80%;
+padding: 5px;
+border-radius: 5px;
+font-size: 22px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+background-color: #407088;
+border: none;
+color: #ffb5b5;
+}
 
 .container { 
     border-radius: 20px;
@@ -18,9 +34,29 @@ text-align: center;}
     margin: 0 auto ;
     background:  #ffb5b5;
 max-width: 600px;
+padding:  60px;
+margin: 60px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
-text-align: center;}
+.city{ 
+    font-size: 25px;
+    display: flex;
+    margin: 10px 0;
+    padding: 30px 0;
+    justify-content: space-between;
+    color: rgb(40, 62, 92);
+    
+}
+.date {opacity: 0.7;
+margin-top: 0px;}
 
-.cities { 
-    color: #407088;;
+.time {font-size: 35px;
+font-weight: bold;
+}
+s
+.timeSmall {
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 40px;
 }
