@@ -1,4 +1,4 @@
-body {background: #defcf9;
+body {background:  rgb(172, 224, 217) 89.8%;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -23,7 +23,7 @@ padding: 5px;
 border-radius: 5px;
 font-size: 22px;
 font-family:Georgia, 'Times New Roman', Times, serif;
-background-color: #c3bef0;
+background-color: #c0baee;
 border: none;
 color: #407088;
 }
@@ -32,7 +32,7 @@ color: #407088;
     border-radius: 150px 150px 20px 20px;
     display: block;
     margin: 60px auto ;
-    background:  #cadefc;
+    background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
 max-width: 600px;
 align-self: center;
 padding:  60px;
