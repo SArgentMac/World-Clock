@@ -14,7 +14,14 @@ let newYorkTime = moment().tz("America/New_York");
 
 newYorkDateElement.innerHTML = newYorkTime.format("MMMM do YYYY");
 newYorkTimeElement.innerHTML = newYorkTime.format("h:mm:ss [<small>]A[</small>]");
-}
+
+let hongKongElement = document.querySelector("#hong-kong");
+let hongKongDateElement = hongKongElement.querySelector(".date");
+let hongKongTimeElement = hongKongElement.querySelector(".time");
+let hongKongTime = moment().tz("Asia/Hong_Kong");
+
+hongKongDateElement.innerHTML = hongKongTime.format("MMMM do YYYY");
+hongKongTimeElement.innerHTML = hongKongTime.format("h:mm:ss [<small>]A[</small>]");}
 
 function updateCity(event) {
     let cityTimeZone = event.target.value;
@@ -30,10 +37,11 @@ function updateCity(event) {
         <h2>${cityName}</h2>
         <div class="date">${cityTime.format("MMMM	Do YYYY")}</div>
       </div>
-      <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format(
+      <div class="time">${cityTime.format("h:mm:ss")} ${cityTime.format(
       "A"
-    )}</small></div>
+    )}</div>
     </div>
+    <a href="/">Back to cities</a>
     `;
   }
 

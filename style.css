@@ -1,10 +1,10 @@
-body {background: #ffcbcb;
+body {background: #defcf9;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
     text-align: center;
-    color: rgb(40, 62, 92);
+    color: #386074;
     font-size: 38px;
     margin-top: 5px;
 }
@@ -23,19 +23,19 @@ padding: 5px;
 border-radius: 5px;
 font-size: 22px;
 font-family:Georgia, 'Times New Roman', Times, serif;
-background-color: #407088;
+background-color: #c3bef0;
 border: none;
-color: #ffb5b5;
+color: #407088;
 }
 
 .container { 
-    border-radius: 20px;
+    border-radius: 150px 150px 20px 20px;
     display: block;
-    margin: 0 auto ;
-    background:  #ffb5b5;
+    margin: 60px auto ;
+    background:  #cadefc;
 max-width: 600px;
+align-self: center;
 padding:  60px;
-margin: 60px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -45,7 +45,7 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: 10px 0;
     padding: 30px 0;
     justify-content: space-between;
-    color: rgb(40, 62, 92);
+    color: #407088;
     
 }
 .date {opacity: 0.7;
@@ -53,10 +53,4 @@ margin-top: 0px;}
 
 .time {font-size: 35px;
 font-weight: bold;
-}
-s
-.timeSmall {
-    font-size: 20px;
-    vertical-align: middle;
-    line-height: 40px;
 }
